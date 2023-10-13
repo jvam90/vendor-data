@@ -5,6 +5,9 @@
   "repository": "git@github.com:jvam90/vendor-data.git",
   "author": "jvam90 <jvam90@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node \"build/index.js\""
+  },
   "dependencies": {
     "@aws-sdk/util-dynamodb": "^3.428.0",
     "aws-sdk": "^2.1473.0",
